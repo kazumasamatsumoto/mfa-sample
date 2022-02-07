@@ -33,6 +33,8 @@ export default function App() {
     }
     setLoading(false);
   }
+
+
   return (
     <div id="main">
       <div>Currently logged in as: {currentUser?.email}</div>
